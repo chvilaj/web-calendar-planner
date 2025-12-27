@@ -1,0 +1,1 @@
+import{r as s,A as u,j as a,u as n}from"./index-BGHBJPkP.js";import l from"./Modal-BB9BpR_U.js";function i({onClose:t,open:e}){const o=n(),{logout:r}=s.useContext(u);return a.jsx(l,{title:o.modal.logout.title,onAccept:()=>{r(),t()},onClose:t,open:e,children:o.modal.logout.content})}export{i as default};
